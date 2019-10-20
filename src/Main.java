@@ -96,9 +96,8 @@ public class Main implements Runnable {
         while (true) {
             timer.sync();
             render();
-            for (int i = 0; i < 1000; i++) {
-                update();
-            }
+            update();
+
 
         }
     }
